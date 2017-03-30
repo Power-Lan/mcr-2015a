@@ -1,0 +1,10 @@
+prefix=/usr/local/MATLAB/MATLAB_Compiler_Runtime/v85
+libdir=${prefix}/runtime/glnxa64
+includedir=${prefix}/extern/include
+
+Name: matlab-wrapper-mcr-2015a
+Description: Matlab Compiler Runtime r2015a
+Version: r2015a
+Cflags: -I${includedir}
+Libs: -L${libdir} -lmwmclmcrrt
+
